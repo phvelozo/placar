@@ -12,7 +12,7 @@ const dados = {
         nome: "Vasco"
     },
     visitante: {
-        nome: "Flamengo "
+        nome: "Flamengo"
     }
 }
 
