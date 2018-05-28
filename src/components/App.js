@@ -18,9 +18,7 @@ const dados = {
 
 export default class App extends React.Component {
     render() {
-        return <Placar partida={dados.partida}
-                       casa={dados.casa}
-                       visitante={dados.visitante} />;
+        return <Placar {...dados} />;
     }
 
 }
